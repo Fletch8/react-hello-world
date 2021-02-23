@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Animal from './Animal';
 import Human from './Human';
+import Car from './Car';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <Animal animal="lion"/>
 
       <Human name="fletch" location="GA" age="Old enough"/>
+
+      <Car />
     </div>
   );
 }
